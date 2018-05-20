@@ -1,0 +1,61 @@
+body {
+  background-color: $background;
+}
+
+.home {
+
+  img, h1, h2, p, ul {
+    margin: 0 auto;
+  }
+
+  img {
+    animation: logo-spin infinite 20s linear;
+    height: 150px;
+  }
+
+  h1, h2, p {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+  }
+
+  h1 {
+    color: #2f3542;
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: .8em;
+    margin-top: 8px;
+    color: #747d8c;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1em;
+    margin-top: 15px;
+    color: #747d8c;
+    font-weight: 200;
+  }
+
+  ul {
+    margin-top: 10px;
+
+    li {
+      list-style-type: none;
+      text-align: center;
+      color: #57606f;
+      margin-top: 5px;
+      font-family: "Helvetica Neue", sans-serif;
+
+      span {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,Courier, monospace;
+        font-size: .9em;
+      }
+    }
+  }
+
+  @keyframes logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}
